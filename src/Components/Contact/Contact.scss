@@ -1,0 +1,26 @@
+@import "../../global.scss";
+.contact{
+    font-family: $font;
+    padding-inline: $sideGap;
+    background-color: $backgroundColor;
+    padding-block: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    .text{
+        font-size: calc(.4rem + 1vmax);
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .email{ 
+        a{
+            font-family: $boldFont;
+            font-size: calc(.7rem + 1vmax);
+            text-decoration: none;
+            font-weight: 800;
+            color: $accentColor;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import "../../global.scss";
+.home{
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundColor;
+    padding-block: 4.5rem;
+    padding-inline: $sideGap;
+
+    .heading{
+        font-family: $font;
+        padding-top: calc(4rem + 20vmin);
+        max-width: 500px;
+        min-width: 100%;
+        font-size: min(6rem,10vw);
+        font-weight: 700;
+        line-height: .95;
+
+        .line{
+            display: inline-block;            
+        }
+        
+    }
+
+    .introText{
+        padding-block: min(4rem,6vw);
+        font-size: min(1.45rem,6vw);
+        font-family: $font;
+        max-width: 650px;
+        line-height: 1.4;
+        letter-spacing: .8px;
+
+    }
+}
