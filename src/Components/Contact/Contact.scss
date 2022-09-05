@@ -3,10 +3,10 @@
     font-family: $font;
     padding-inline: $sideGap;
     background-color: $backgroundColor;
-    padding-block: 3rem;
+    padding-block: 5rem;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     .text{
         font-size: calc(.4rem + 1vmax);
@@ -15,12 +15,14 @@
     }
 
     .email{ 
+        
         a{
+            display: block;
             font-family: $boldFont;
             font-size: calc(.7rem + 1vmax);
             text-decoration: none;
             font-weight: 800;
-            color: $accentColor;
+            color: $textColor;
         }
     }
 }

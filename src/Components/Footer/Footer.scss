@@ -1,0 +1,23 @@
+@import "../../global.scss";
+.footer{
+    padding-inline: $sideGap;
+    background-color: $backgroundColor;
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    .socialMedia{
+        display: flex;
+        gap: 2px;
+        a{
+            text-decoration: none;
+            color: $textColor;
+        }
+    }
+    .text{
+        font-family: $font;
+        font-size: .8rem;
+        
+    }
+}

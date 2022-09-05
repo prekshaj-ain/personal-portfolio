@@ -14,9 +14,12 @@
         font-size: min(6rem,10vw);
         font-weight: 700;
         line-height: .95;
+        letter-spacing: min(5px,1vw);
 
         .line{
-            display: inline-block;            
+            display: flex;
+            overflow: hidden;     
+            gap: min(1rem,2vw);       
         }
         
     }
